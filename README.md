@@ -43,12 +43,12 @@ Adicione o javac e o java ao PATH do seu sistema. <br>
 #### Compilação:
 
 Compile o código-fonte com o seguinte comando: <br>
-javac Main.java
+> javac Main.java
 
 #### Execução:
 
 Execute o simulador com o comando: <br>
-java Main
+> java Main
 
 #### Uso:
 
@@ -61,16 +61,16 @@ Exemplo: <br>
 #### Sair:
 
 Para encerrar o simulador, digite: <br>
-exit
+> exit
 
 ### Estrutura do Journaling
 Todas as operações realizadas são registradas no arquivo filesystem.journal. Cada linha do arquivo contém o comando executado, os parâmetros fornecidos e a ordem em que foi realizado.
 
 Exemplo de registro no arquivo de journaling: <br>
 
-mkdir test_folder <br>
-copy file.txt test_folder/file.txt <br>
-rm file.txt <br>
+> mkdir test_folder <br>
+> copy file.txt test_folder/file.txt <br>
+> rm file.txt <br>
 
 ### Resultados Esperados
 Ao executar o simulador, espera-se que o usuário consiga: <br>
